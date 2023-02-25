@@ -1,0 +1,83 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1C2833;
+    color: #F7F9F9;
+}
+
+h2{
+    font-size: 32px;
+}
+
+#avatar{
+    height: 150px;
+    width: 150px;
+}
+
+#resume{
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+#resume, #about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+#about{
+    flex-wrap: wrap;
+}
+
+#personal-details{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+#about{
+    column-gap: 50px;
+}
+
+#resume, #personal-details{
+    flex-direction: column;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+table, tr, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table{
+    min-width: 40vw;
+}
+
+th, td{
+    padding: 10px;
+}
+
+#logo{
+    background-image: url(avatar.png);
+    background-size: contain;
+    max-height: 160px;
+    max-width: 160px;
+    min-height: 160px;
+    min-width: 160px;
+    border-radius: 80px;
+}
+
+#heart{
+    color: #FF0000;
+    font-size: 20px;
+}
